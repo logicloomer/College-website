@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> BIT website design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+    <body>
+      <section class="sub-header">
+       <nav>
+        <a href="index.html"><img src="images/logo.png.jpeg"></a>
+        <div class="nav-links" id="navLinks">
+            
+            <i class="fa fa-times"onclick="hideMenu()" ></i>
+
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </div> 
+        <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+       <h1>About Us</h1>
+</section>
+
+<!-----about us content  ---->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>A Premier engineering and Management Institute</h1>
+        <p>BIT Mesra, located in Ranchi, India, is a premier engineering and management institute. 
+            Established in 1955, it offers undergraduate, postgraduate, and doctoral programs in various disciplines. 
+            Renowned for its academic excellence, 
+            the institute emphasizes research and innovation. It boasts a sprawling campus, 
+            state-of-the-art facilities, and a vibrant student community, making it a coveted destination for higher education in India.</p>
+        <a href="" class="V-btn red-btn"> EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/abt.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!-------Footer ---  -->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>"Dream big, work hard, and never stop believing in yourself. 
+        Your journey at BIT Mesra, Ranchi, is the beginning of something extraordinary."
+       <br> "Success is not just about the destination; it's about the journey"</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i> by Sweety Kumari</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+      <!-------javascript for toggle  Menu------->
+<script>
+
+    var navlinks = document.getElementById("navLinls");
+    
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+    </body>
+</html>

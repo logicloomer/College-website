@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> BIT website design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+    <body>
+      <section class="sub-header">
+       <nav>
+        <a href="index.html"><img src="images/logo.png.jpeg"></a>
+        <div class="nav-links" id="navLinks">
+            
+            <i class="fa fa-times"onclick="hideMenu()" ></i>
+
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </div> 
+        <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+       <h1>OUR COURSES</h1>
+</section>
+
+<!-----course content  ---->
+
+<section class="course">
+    <h1>Courses we offer </h1>
+    <p>An educational Institute offering undergraduate and postgraduate courses </p>
+
+<div class="row">
+    <div class="course-col">
+      <h3> Undergraduate</h3>
+      <p>We provide undergraduate engineering programs in Computer Science and Engineering (CSE), 
+          Electronics and Communication Engineering (ECE), 
+          Electrical and Electronics Engineering (EEE), Mechanical Engineering, and Civil Engineering.</p>
+    </div>
+  
+
+    <div class="course-col">
+      <h3> Postgraduate</h3>
+      <p>Our postgraduate offerings include  MBA, PhD, MCA and MTech programs,
+          providing advanced education and specialized training to propel careers and 
+          foster expertise in diverse fields of study.</p>
+    </div>
+  </div>
+</section>
+
+<!------ Facilities ----->
+
+<section class="facilities">
+    <h1> Our Facilities</h1>
+    <p>Numerous amenities are available on campus to help 
+        students advance their knowledge.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World class Library</h3>
+                <p>Our college library offers extensive resources and study materials, providing students with 
+                    access to research materials and quiet study spaces conducive to academic success.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/lab.png">
+                <h3>Sessional labs</h3>
+                <p>Additionally, our college boasts state-of-the-art practical labs, enhancing hands-on 
+                    learning experiences and enabling students to apply theoretical knowledge in real-world scenarios effectively</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/audi.png">
+                <h3>An expansive auditorium</h3>
+                <p>Our college auditorium serves as a dynamic hub for various events, fostering 
+                    collaboration and community engagement, enriching academic discourse and cultural exchange.</p>
+            </div>
+        </div>
+</section>
+
+
+
+
+<!-------Footer ---  -->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>"Dream big, work hard, and never stop believing in yourself. 
+        Your journey at BIT Mesra, Ranchi, is the beginning of something extraordinary."
+       <br> "Success is not just about the destination; it's about the journey"</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i> by Sweety Kumari</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+      <!-------javascript for toggle  Menu------->
+<script>
+
+    var navlinks = document.getElementById("navLinls");
+    
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+    </body>
+</html>
